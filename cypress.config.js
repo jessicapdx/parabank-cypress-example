@@ -15,8 +15,9 @@ module.exports = defineConfig({
     loginUrl: "/index.htm",
     productsUrl: "/products.htm",
     servicesUrl: "/services.htm",
-    //users
-    defaultUsername: "john",
+    //user info
+    defaultFullName: "John Smith",
     defaultPass: "demo",
+    defaultUsername: "john",
   },
 });
