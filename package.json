@@ -1,0 +1,14 @@
+{
+  "name": "parabank-cypress-example",
+  "version": "1.0.0",
+  "description": "Test automation framework using TypeScript + Cypress",
+  "main": "cypress.config.js",
+  "scripts": {
+    "open": "cypress open"
+  },
+  "author": "Jessica Butler",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
