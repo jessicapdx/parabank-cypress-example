@@ -5,5 +5,14 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl: "https://parabank.parasoft.com/parabank",
+  },
+  env: {
+    aboutUrl: "/about.htm",
+    adminUrl: "/admin.htm",
+    locationsUrl: "/locations.htm",
+    loginUrl: "/index.htm",
+    productsUrl: "/products.htm",
+    servicesUrl: "/services.htm",
   },
 });
