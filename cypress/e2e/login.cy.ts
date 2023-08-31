@@ -20,7 +20,7 @@ describe("parabank login page", () => {
     cy.get(loggedInUser).should("have.text", `Welcome ${fullName}`);
   });
 
-  it("denies access to non-existant users", () => {
+  it("denies access to non-existent users", () => {
     cy.login("unknown", "user");
     cy.get(".error").should("have.text", incorrectLoginError);
   });
